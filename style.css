@@ -69,7 +69,7 @@ header{
 
 .encriptador{
     position: absolute;
-    bottom: 10%;
+    bottom: 7%;
     left: 15%;   
     width: 60%;
 }
@@ -86,7 +86,6 @@ header{
 .encriptar, .desencriptar{
     padding: 2em;
     width: 45%;
-    background-color: #AAB2D5;
     border: none;
     border-radius: 30px;
     font-size: 1em;
@@ -94,3 +93,26 @@ header{
     margin-right: 1em;
     display: inline-block;
 }
+
+.encriptar{
+    background-color: #0A3871;
+    color: white;
+}
+
+.desencriptar{
+    background-color: #ADB5BD;
+    color: #0A3871;
+}
+
+@media screen and (max-width: 640px){
+    .sinMensaje{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1007px){
+    .sinMensaje{
+        display: none;
+    }
+}
+
