@@ -119,12 +119,15 @@ header{
     }
 
     .encriptado{
-        position: relative;
+        position:absolute;
+        bottom: 0px;
+        top:100%;
+        height:max-content;
     }
 
     .encriptador{
         position: absolute;
-        margin-bottom: 10%;
+        margin-bottom: auto;
     }
 
     .encriptador p{
@@ -132,9 +135,9 @@ header{
     }
 
     .encriptar, .desencriptar{
-        width:85%;
+        width:110%;
         display: block;
-        margin-bottom: 10%;
+        margin-bottom: 5%;
     }
 
     .encriptado{
