@@ -13,7 +13,7 @@ header{
 
 .texto{
     color: #609ED4;
-    padding-left: 15%;
+    padding-left: 5%;
     font-style: italic;
     font-size: 2em;
     margin-top: 2em;
@@ -70,8 +70,8 @@ header{
 .encriptador{
     position: absolute;
     bottom: 7%;
-    left: 15%;   
-    width: 60%;
+    left: 5%;   
+    width: 70%;
 }
 
 .encriptador p::before{
@@ -105,11 +105,6 @@ header{
 }
 
 @media screen and (max-width: 640px){
-    body{
-        width: auto;
-        margin: auto
-    }
-
     .logo{
         width: 70%;
         margin-top: 10%;
@@ -129,7 +124,11 @@ header{
 
     .encriptador{
         position: absolute;
-        margin-bottom: 60%;
+        margin-bottom: 10%;
+    }
+
+    .encriptador p{
+        font-size: 1.3em;
     }
 
     .encriptar, .desencriptar{
@@ -145,9 +144,36 @@ header{
 
 }
 
-@media screen and (max-width: 1007px){
+@media screen and (min-width: 641px) and (max-width: 1007px){
+    .logo{
+        width: 70%;
+        margin-top: 10%;
+    }
+
     .sinMensaje{
         display: none;
+    }
+
+    .desencriptar, .encriptado, .encriptador, .texto, .textoEncriptado{
+        width: auto;
+    }
+
+    .encriptado{
+        position: relative;
+    }
+
+    .encriptador{
+        position: relative;
+        margin-bottom: 5%;
+    }
+
+    .encriptar, .desencriptar{
+        width: 45%;
+    }
+
+    .encriptado{
+        text-align: center;
+        margin: 0% 0% 10% 5%;       
     }
 }
 
