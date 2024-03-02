@@ -128,7 +128,9 @@ header{
     }
 
     .encriptar, .desencriptar{
-        width: auto;
+        width:85%;
+        display: block;
+        margin-bottom: 5%;
     }
 
     .encriptado{
