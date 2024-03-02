@@ -105,6 +105,11 @@ header{
 }
 
 @media screen and (max-width: 640px){
+    body{
+        width: auto;
+        margin: auto
+    }
+
     .logo{
         width: 70%;
         margin-top: 10%;
@@ -135,8 +140,7 @@ header{
 
     .encriptado{
         text-align: center;
-        margin: 0% 0% 10% 5%;
-        
+        margin: 0% 0% 10% 5%;       
     }
 
 }
