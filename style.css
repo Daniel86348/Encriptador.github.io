@@ -1,5 +1,5 @@
 body{
-    background-color: #F3F5FC ;
+    background-color:  #D6EAF8 ;
 }
 
 header{
@@ -12,14 +12,18 @@ header{
 }
 
 .texto{
-    color: #609ED4;
     padding-left: 5%;
     font-style: italic;
+    font-weight: bold;
     font-size: 2em;
     margin-top: 2em;
     border: none;
-    background-color: #F3F5FC;
+    background-color: #D6EAF8 ;
     outline: none;
+}
+
+.texto::placeholder{
+    color: #0A3871;
 }
 
 .encriptado{
@@ -28,13 +32,15 @@ header{
     right: 2%;
     top: 0px;
     box-sizing: border-box;
-    border: 2px solid black;
-    border-radius: 20px;
+    border: 2px solid  #F3F5FC;
+    border-radius: 130px;
+    box-shadow: 10px 10px #F3F5FC;
     padding: 10% 5% 5%;
     height: 95%;
     margin-top: 2%;
     margin-bottom: 2%;
     display: block;
+    background-color: #F3F5FC;
 }
 
 .textoEncriptado{
