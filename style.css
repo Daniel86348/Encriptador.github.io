@@ -34,9 +34,9 @@ header{
     box-sizing: border-box;
     border: 2px solid  #F3F5FC;
     border-radius: 130px;
-    box-shadow: 10px 10px #F3F5FC;
+    box-shadow: 15px 15px 50px 15px #F3F5FC;
     padding: 10% 5% 5%;
-    height: 95%;
+    height: 90%;
     margin-top: 2%;
     margin-bottom: 2%;
     display: block;
