@@ -13,18 +13,17 @@
     </header>
     <main>
         <div class="textoParaEncriptar">
-            <label for="texto"></label>
-            <textarea class="texto" cols="75" rows="15" placeholder="Ingrese el texto aqui"></textarea>
+            <textarea id="texto" class="texto" placeholder="Ingrese el texto aqui"></textarea>
         </div>
         <div class="encriptador">
             <p>Solo letras minúsculas y sin acentos</p>
-            <input type="submit" value="Encriptar" class="encriptar">
+            <input type="submit" value="Encriptar" class="encriptar" onclick="encriptar()">
             <input type="submit" value="Desencriptar" class="desencriptar">
         </div>
         <div class="encriptado">
-            <h1 class="textoEncriptado">Texto ejemplo</h1>
+            <textarea id="mensajeEncriptado" class="textoEncriptado"></textarea>
             <img src="imagenes/Muñeco.png" class="sinMensaje" alt="Persona buscando con una lupa">
-            <h2>Ningún mensaje fue encontrado</h2>
+            <h2 >Ningún mensaje fue encontrado</h2>
             <p>Ingrese el texto que desees encriptar o desencriptar.</p>
         </div>
         <script src="actions.js"></script>

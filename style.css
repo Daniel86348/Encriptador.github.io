@@ -47,6 +47,8 @@ header{
 
 .textoEncriptado{
     font-size: 2em;
+    border: none;
+    background: #F3F5FC;
 }
 
 .textoEncriptado::before{
@@ -132,7 +134,8 @@ header{
         top:100%;
         height:max-content;
         text-align: center;
-        margin: 0% 0% 10% 5%; 
+        margin: 0% 0% 10% 2%; 
+        border-radius: 30%;
     }
 
     .encriptador{
@@ -148,6 +151,7 @@ header{
         width:110%;
         display: block;
         margin-bottom: 5%;
+        margin-left: 4%;
     }   
 }
 
