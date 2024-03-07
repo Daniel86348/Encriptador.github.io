@@ -1,4 +1,4 @@
-body{
+ body{
     background-color:  #D6EAF8 ;
 }
 
@@ -17,9 +17,11 @@ header{
     font-weight: bold;
     font-size: 2em;
     margin-top: 2em;
+    margin-left: 2em;
     border: none;
     background-color: #D6EAF8 ;
     outline: none;
+    
 }
 
 .texto::placeholder{
@@ -37,8 +39,8 @@ header{
     box-shadow: 15px 15px 50px 15px #F3F5FC;
     padding: 10% 5% 5%;
     height: 90%;
-    margin-top: 2%;
-    margin-bottom: 2%;
+    margin-top: 1%;
+    margin-bottom: 5%;
     display: block;
     background-color: #F3F5FC;
 }
@@ -129,6 +131,8 @@ header{
         bottom: 0px;
         top:100%;
         height:max-content;
+        text-align: center;
+        margin: 0% 0% 10% 5%; 
     }
 
     .encriptador{
@@ -144,13 +148,7 @@ header{
         width:110%;
         display: block;
         margin-bottom: 5%;
-    }
-
-    .encriptado{
-        text-align: center;
-        margin: 0% 0% 10% 5%;       
-    }
-
+    }   
 }
 
 @media screen and (min-width: 641px) and (max-width: 1007px){
