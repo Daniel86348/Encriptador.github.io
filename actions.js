@@ -1,4 +1,4 @@
-var campo_texto = document.getElementsByClassName("texto");
+var campo_texto = document.getElementsByClassName('texto');
 var campo_mensaje = document.getElementsByClassName('textoEncriptado');
 
 const matriz=[
