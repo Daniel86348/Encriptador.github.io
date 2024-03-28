@@ -49,6 +49,7 @@ header{
     font-size: 2em;
     border: none;
     background: #F3F5FC;
+    text-align: center;
 }
 
 .textoEncriptado::before{

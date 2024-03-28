@@ -9,10 +9,23 @@ const matriz=[
     ["u", "ufat"],
 ];
 
+const matriz_2=[
+    ["enter", "e"],
+    ["imes", "i"],
+    ["ai", "a"],
+    ["ober", "o"],
+    ["ufat", "u"],
+];
+
 function encriptar(){
     const texto = encriptado(campo_texto.value);
-    console.log(texto);
+    campo_mensaje.value = texto;
 };
+
+function desencriptar(){
+    const txt = campo_texto.value;
+    campo_mensaje.value = txt;
+}
 
 function encriptado(fraseEncriptada){
     for(let i = 0; i < matriz.length; i++){
