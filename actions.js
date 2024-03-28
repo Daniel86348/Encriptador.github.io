@@ -23,7 +23,7 @@ function encriptar(){
 };
 
 function desencriptar(){
-    const txt = campo_texto.value;
+    const txt = desencriptado(campo_texto.value);
     campo_mensaje.value = txt;
 }
 
@@ -33,6 +33,18 @@ function encriptado(fraseEncriptada){
             fraseEncriptada = fraseEncriptada.replaceAll(
                 matriz[i][0],
                 matriz[i][1]
+            )
+        }
+    }
+    return fraseEncriptada
+};
+
+function desencriptado(fraseEncriptada){
+    for(let i = 0; i < matriz.length; i++){
+        if(fraseEncriptada.includes(matriz[i][1])){
+            fraseEncriptada = fraseEncriptada.replaceAll(
+                matriz[i][1],
+                matriz[i][0]
             )
         }
     }
