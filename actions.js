@@ -9,17 +9,9 @@ const matriz=[
     ["u", "ufat"],
 ];
 
-const matriz_2=[
-    ["enter", "e"],
-    ["imes", "i"],
-    ["ai", "a"],
-    ["ober", "o"],
-    ["ufat", "u"],
-];
-
 function encriptar(){
-    const texto = encriptado(campo_texto.value);
-    campo_mensaje.value = texto;
+        const texto = encriptado(campo_texto.value);
+        campo_mensaje.value = texto;
 };
 
 function desencriptar(){
@@ -36,7 +28,7 @@ function encriptado(fraseEncriptada){
             )
         }
     }
-    return fraseEncriptada
+    return fraseEncriptada;
 };
 
 function desencriptado(fraseEncriptada){
@@ -48,5 +40,5 @@ function desencriptado(fraseEncriptada){
             )
         }
     }
-    return fraseEncriptada
+    return fraseEncriptada;
 };
