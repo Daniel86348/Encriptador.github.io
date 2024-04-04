@@ -10,13 +10,23 @@ const matriz=[
 ];
 
 function encriptar(){
+    tieneMayuscula = mayuscula()
+    if(tieneMayuscula == 0){
+        window.alert('Error tiene mayuscula');
+    } else if(tieneMayuscula == 1){
         const texto = encriptado(campo_texto.value);
         campo_mensaje.value = texto;
+    }
 };
 
 function desencriptar(){
-    const txt = desencriptado(campo_texto.value);
-    campo_mensaje.value = txt;
+    tieneMayuscula = mayuscula()
+    if(tieneMayuscula == 0){
+        window.alert('Error tiene mayuscula');
+    } else if(tieneMayuscula == 1){
+        const txt = desencriptado(campo_texto.value);
+        campo_mensaje.value = txt;
+    }
 }
 
 function encriptado(fraseEncriptada){
@@ -42,3 +52,13 @@ function desencriptado(fraseEncriptada){
     }
     return fraseEncriptada;
 };
+
+function mayuscula(){
+    mayus= /([A-Z])\w+/;
+    var texto = campo_texto.value
+    if(!mayus.test(texto)){
+        return 1;
+    }else if(mayus.test(texto)){
+        return 0;
+    } 
+}
